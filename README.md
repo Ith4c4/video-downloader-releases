@@ -14,7 +14,8 @@ Baixe vídeos e músicas de mais de mil sites no Windows, sem linha de comando: 
 - Progresso com velocidade e tempo restante; dá para cancelar a qualquer momento.
 - Ao abrir, mostra uma tela de carregamento na hora; abrir de novo só traz a janela que já está aberta.
 - **Histórico** com busca: abrir o arquivo, abrir a pasta, baixar de novo ou remover.
-- Avisa quando há uma versão nova do yt-dlp (o motor de download) e atualiza com um clique, para continuar
+- **Se atualiza sozinho:** avisa quando há uma versão nova do app e, com um clique, fecha, atualiza e abre de
+  novo, mantendo configurações e histórico. Também atualiza o yt-dlp (o motor de download), para continuar
   funcionando quando os sites mudam.
 - Tudo já vem junto (FFmpeg incluído): não precisa instalar mais nada.
 
@@ -26,9 +27,9 @@ Baixe vídeos e músicas de mais de mil sites no Windows, sem linha de comando: 
 
 Baixe na [página de downloads](../../releases/latest) (em **Assets**). Há duas opções:
 
-- **Instalador** (`VideoDownloader-0.1.1-instalador.exe`): dois cliques e pronto. Instala só para o seu usuário, sem
+- **Instalador** (`VideoDownloader-0.1.2-instalador.exe`): dois cliques e pronto. Instala só para o seu usuário, sem
   pedir senha de administrador, e cria atalhos no menu Iniciar e (se quiser) na área de trabalho.
-- **Versão portátil** (`VideoDownloader-0.1.1-portatil.zip`): descompacte onde quiser (até num pendrive) e abra
+- **Versão portátil** (`VideoDownloader-0.1.2-portatil.zip`): descompacte onde quiser (até num pendrive) e abra
   `VideoDownloader.exe`. Configurações e histórico ficam na pasta `data`, ao lado do programa.
 
 **Na primeira vez, o Windows pode mostrar "O Windows protegeu o computador".** Isso acontece porque o app não tem
@@ -62,7 +63,7 @@ autorização do autor) e respeite os termos de uso de cada site.
 Cada arquivo tem um `.sha256` ao lado. No PowerShell:
 
 ```powershell
-Get-FileHash .\VideoDownloader-0.1.1-instalador.exe
+Get-FileHash .\VideoDownloader-0.1.2-instalador.exe
 ```
 
 O valor deve ser igual ao do arquivo `.sha256` correspondente.
